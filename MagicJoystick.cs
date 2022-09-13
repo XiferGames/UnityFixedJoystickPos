@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.OnScreen;
 
-public class MagicButtonStartClick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
+public class MagicJoystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
     [SerializeField] Transform joystickT;
     [SerializeField] OnScreenStick stick;
